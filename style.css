@@ -11,17 +11,18 @@
 }
 
 nav {
-    background-color: rgb(182, 182, 182);
+    background-color: rgb(44, 43, 43);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: rgb(15, 15, 15);
+    color: rgb(255, 255, 255);
 }
 
 nav h1 {
     margin-top: -6rem;
+    background-color: oran;
 }
 
 .buttonInput {
@@ -45,6 +46,9 @@ nav h1 {
 .buttonInput .btn:hover {
     background-color: rgb(201, 131, 1);
 }
+#textInput {
+    font-size: 1rem;
+}
 
 #textInput:focus {
     outline: orange auto 5px;
@@ -52,4 +56,59 @@ nav h1 {
 
 .buttonInput .btn:focus {
     outline: rgb(201, 131, 1) auto 5px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 2rem;
+}
+
+.card1:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(0, 0, 0, 0.2);
+
+}
+
+.card1 {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    z-index: 100;
+    background-image: url(img/lastfood.png);
+    background-color: rgb(219, 158, 44);
+    transition: transform 0.4s;
+}
+
+.card2 {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    z-index: 100;
+    background-image: url(img/lastfood.png);
+    background-color: rgb(219, 158, 44);
+
+}
+
+.card3 {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    z-index: 100;
+    background-image: url(img/lastfood.png);
+    background-color: rgb(219, 158, 44);
+
 }
