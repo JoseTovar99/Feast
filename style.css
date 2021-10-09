@@ -1,0 +1,55 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+#feast_logo {
+    height: 18rem;
+    width: 18rem;
+    display: flex;
+    margin-left: 3.5rem;
+    margin-top: -5rem;
+}
+
+nav {
+    background-color: rgb(182, 182, 182);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(15, 15, 15);
+}
+
+nav h1 {
+    margin-top: -6rem;
+}
+
+.buttonInput {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+::placeholder {
+    
+}
+
+.buttonInput .btn {
+    font-size: .9rem;
+    border-radius: 20px;
+    transition: all .2s ease-in;
+    background-color: rgb(255, 185, 55);
+    color: white;
+
+}
+
+.buttonInput .btn:hover {
+    background-color: rgb(201, 131, 1);
+}
+
+#textInput:focus {
+    outline: orange auto 5px;
+}
+
+.buttonInput .btn:focus {
+    outline: rgb(201, 131, 1) auto 5px;
+}
