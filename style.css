@@ -15,7 +15,7 @@ body {
 }
 
 nav {
-    background-image: linear-gradient(to bottom, #0505059d, #f0a00b94) ,url(img/foodback.jpg);
+    background-image: linear-gradient(to bottom, #0505059d, #f0a00b28) ,url(img/foodback.jpg);
     background-size: cover;
     background-position: top;
     display: flex;
@@ -78,9 +78,10 @@ nav h1 {
     background-position: center;
     background-size: cover;
     z-index: 100;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/mexican3.jpg');
     background-color: rgb(219, 158, 44);
     transition: transform 0.4s;
+    background: url(img/mexican3.jpg);
+
 }
 .card1 h1 {
     color: white;
@@ -102,7 +103,9 @@ nav h1 {
 .card1:hover {
     transform: translateY(-8px);
     box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(0, 0, 0, 0.2);
-    filter: brightness(160%);
+    filter: brightness(100%);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/mexican3.jpg');
+
 }
 
 
@@ -115,7 +118,7 @@ nav h1 {
     background-position: center;
     background-size: cover;
     z-index: 100;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/honduran.jpg');
+    background: url(img/honduran.jpg);
     background-color: rgb(219, 158, 44);
     transition: transform 0.4s;
 }
@@ -140,7 +143,8 @@ nav h1 {
 .card2:hover {
     transform: translateY(-8px);
     box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(0, 0, 0, 0.2);
-    filter: brightness(160%);
+    filter: brightness(100%);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/honduran.jpg');
 
 }
 
@@ -154,7 +158,7 @@ nav h1 {
     background-position: center;
     background-size: cover;
     z-index: 100;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/indian3.jpg');
+    background: url(img/indian3.jpg);
     background-color: rgb(219, 158, 44);
     transition: transform 0.4s;
 }
@@ -180,7 +184,8 @@ nav h1 {
 .card3:hover {
     transform: translateY(-8px);
     box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(0, 0, 0, 0.2);
-    filter: brightness(160%);
+    filter: brightness(100%);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/indian3.jpg');
 
 }
 
@@ -194,7 +199,7 @@ nav h1 {
     background-position: center;
     background-size: cover;
     z-index: 100;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/chinese.jpg');
+    background: url(img/chinese.jpg);
     background-color: rgb(219, 158, 44);
     transition: transform 0.4s;
 }
@@ -219,6 +224,7 @@ nav h1 {
 .card4:hover {
     transform: translateY(-8px);
     box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(0, 0, 0, 0.2);
-    filter: brightness(160%);
+    filter: brightness(100%);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/chinese.jpg');
 
 }
