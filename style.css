@@ -228,3 +228,31 @@ nav h1 {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/chinese.jpg');
 
 }
+
+hr {
+    border: none;
+    margin-top: 3rem;
+    height: 800px;
+    width: 95%;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+    background: url(img/indian.jpg);
+    background-size: cover;
+}
+
+.textInside {
+   
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+    padding: 1px;
+    font-size: 1rem;
+    margin-top: 2rem;
+    background-color: #1f1f1f;
+    background: url(img/foodback.jpg);
+    background-size: cover;
+    color: #fff;
+}
