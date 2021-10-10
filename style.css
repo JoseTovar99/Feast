@@ -78,7 +78,7 @@ nav h1 {
     background-position: center;
     background-size: cover;
     z-index: 100;
-    background-image: linear-gradient(to bottom, #0505059d, #f0a00b86) ,url(img/foodback.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/mexican3.jpg');
     background-color: rgb(219, 158, 44);
     transition: transform 0.4s;
 }
@@ -102,7 +102,7 @@ nav h1 {
 .card1:hover {
     transform: translateY(-8px);
     box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(0, 0, 0, 0.2);
-    visibility: visible;
+    filter: brightness(160%);
 }
 
 
@@ -115,20 +115,33 @@ nav h1 {
     background-position: center;
     background-size: cover;
     z-index: 100;
-    background-image: linear-gradient(to bottom, #0505059d, #f0a00b86) ,url(img/foodback.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/honduran.jpg');
     background-color: rgb(219, 158, 44);
     transition: transform 0.4s;
 }
 .card2 h1 {
     color: white;
+    display: flex;
+    margin-top: -.1rem;
     justify-content: center;
     align-items: center;
-    margin-left: 5rem;
-    margin-top: 6rem;
+    background-clip: content-box;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
 }
+
+.card2 h1:hover {
+    opacity:1;
+    -webkit-transition: opacity .25s ease-in-out .0s;
+    transition: opacity .25s ease-in-out .0s;
+}
+
 .card2:hover {
     transform: translateY(-8px);
     box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(0, 0, 0, 0.2);
+    filter: brightness(160%);
+
 }
 
 
@@ -141,17 +154,20 @@ nav h1 {
     background-position: center;
     background-size: cover;
     z-index: 100;
-    background-image: url(img/chinese.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/indian3.jpg');
     background-color: rgb(219, 158, 44);
     transition: transform 0.4s;
 }
 .card3 h1 {
     color: white;
+    display: flex;
+    margin-top: -.1rem;
     justify-content: center;
     align-items: center;
-    margin-left: 5rem;
-    margin-top: 6rem;
+    background-clip: content-box;
     opacity: 0;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -164,5 +180,45 @@ nav h1 {
 .card3:hover {
     transform: translateY(-8px);
     box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(0, 0, 0, 0.2);
-    filter: brightness(80%);
+    filter: brightness(160%);
+
+}
+
+
+.card4 {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    z-index: 100;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/chinese.jpg');
+    background-color: rgb(219, 158, 44);
+    transition: transform 0.4s;
+}
+.card4 h1 {
+    color: white;
+    display: flex;
+    margin-top: -.1rem;
+    justify-content: center;
+    align-items: center;
+    background-clip: content-box;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card4 h1:hover {
+    opacity:1;
+    -webkit-transition: opacity .25s ease-in-out .0s;
+    transition: opacity .25s ease-in-out .0s;
+}
+
+.card4:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(0, 0, 0, 0.2);
+    filter: brightness(160%);
+
 }
