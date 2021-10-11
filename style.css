@@ -229,20 +229,15 @@ nav h1 {
 
 }
 
-hr {
-    border: none;
-    margin-top: 3rem;
-    height: 800px;
-    width: 95%;
-    /* Set the hr color */
-    color: #333; /* old IE */
-    background-color: #333; /* Modern Browsers */
-    background: url(img/indian.jpg);
-    background-size: cover;
+
+.bgimage { 
+    justify-content: center;
+    margin-top: 4rem;
+    filter: brightness(50%);
 }
 
-.textInside {
-   
+.bgimage h1 {
+
 }
 
 footer {
@@ -256,3 +251,17 @@ footer {
     background-size: cover;
     color: #fff;
 }
+
+
+.overImage {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.insideText {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
