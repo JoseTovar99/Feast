@@ -27,7 +27,7 @@ nav {
 }
 
 nav h1 {
-    margin-top: -6rem;
+    margin-top: -4rem;
     background-color: oran;
 }
 
@@ -42,6 +42,7 @@ nav h1 {
     transition: all .2s ease-in;
     background-color: rgb(255, 185, 55);
     color: white;
+    margin-top: 1rem;
 
 }
 
@@ -64,7 +65,7 @@ nav h1 {
 .cards {
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 6rem;
     gap: 2rem;
 }
 
@@ -232,7 +233,7 @@ nav h1 {
 
 .bgimage { 
     justify-content: center;
-    margin-top: 4rem;
+    margin-top: 5rem;
     filter: brightness(50%);
 }
 
@@ -264,4 +265,5 @@ footer {
     top: 10%;
     left: 20%;
     transform: translate(-50%, -50%);
+    font-size: 2rem;
   }

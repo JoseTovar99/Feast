@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" href="img/lastfood.png">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
@@ -53,7 +54,7 @@
        <div class="bgimage">
             <img src="img/indian.jpg" alt="indian-back" style="height: 1000px;" width="1300px">
        </div>
-         <div class="insideText">Centered</div>
+         <div class="insideText" data-aos="fade-right" data-aos-duration="1000">Figure out how long it'll take, how far it is, and how good<br>it is with a couple clicks.</div>
     </div>
 
     <footer>
@@ -63,5 +64,11 @@
 
 </div>
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          once: true
+      });
+    </script>
 </body>
 </html>
