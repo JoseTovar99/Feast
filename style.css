@@ -305,20 +305,21 @@ footer {
     display: flex;
     justify-content: start;
     margin-top: 4rem;
-    gap: 20rem;
+    gap: 5rem;
   }
 
   .card5 {
     margin-left: 6.8rem;
-    height: 300px;
-    width: 500px;
+    height: 350px;
+    width: 600px;
     border-radius: 10px;
     box-sizing: border-box;
     background-position: center;
     background-size: cover;
+    position: relative;
     z-index: 100;
     background-color: rgb(219, 158, 44);
-    background: url(img/bigmap.jfif);
+    background: url(img/mexican.jpg);
     
   }
 
