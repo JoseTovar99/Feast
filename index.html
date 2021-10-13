@@ -10,6 +10,84 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
 
     <title>Feast</title>
+
+
+    <style>
+        @media screen and (max-width: 1300px) {
+            .card1 {
+                height: 250px;
+                width: 250px;
+            }
+            .card2 {
+                height: 250px;
+                width: 250px;
+            }
+            .card3 {
+                height: 250px;
+                width: 250px;
+            }
+            .card4 {
+                height: 250px;
+                width: 250px;
+            }
+
+            .hiddenImg {
+                height: 700px;
+                width: 1000px;
+            }
+
+            .brandsInside1 {
+                left: 14%;
+            }
+
+            .brandsInside2 {
+                left: 12%;
+            }
+
+            .insideText {
+                left: 13%;
+            }
+
+            .insideUnderText {
+                left: 10%;
+            }
+        }
+
+        @media screen and (max-width: 1220px) {
+            .insideText {
+                font-size: 1.7rem;
+            }
+            .insideUnderText {
+                font-size: 1.7rem;
+            }
+            .brandsInside1 .image1 {
+                height: 100px;
+                width: 170px;
+            }
+        }
+        @media screen and (max-width: 1115px) {
+            .cards {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .descrCard {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .brandsInside1 .image1 {
+                display: none;
+            }
+            .brandsInside2 .image1 {
+                display: none;
+            }
+        }
+
+        
+    </style>
 </head>
 <body style="margin: 0;">
    
@@ -52,10 +130,10 @@
 
     <div class="overImage">
        <div class="bgimage">
-            <img src="img/indian.jpg" alt="indian-back" style="height: 1000px;" width="1300px">
+            <img src="img/indian.jpg" alt="indian-back" style="height: 1000px;" width="1300px" class="hiddenImg">
        </div>
          <div class="insideText" data-aos="fade-right" data-aos-duration="1000">Figure out how long it'll take, how far it is, and how good<br>it is with a couple clicks.</div>
-         <div class="insideUnderText" data-aos="fade-up" data-aos-duration="1000" >Hundreds of places to choose from, both local and national</div>
+         <div class="insideUnderText" data-aos="fade-up" data-aos-duration="1000" >Hundreds of places to choose from, both local and national!</div>
 
          <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="linear" class="brandsInside1">
              <div class="image1">
