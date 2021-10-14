@@ -6,6 +6,9 @@ body {
     /*padding: 10px; If I want padding around whole page */
 }
 
+.container {
+}
+
 #feast_logo {
     height: 8rem;
     width: 18rem;
@@ -44,7 +47,7 @@ nav h1 {
     background-color: rgb(255, 185, 55);
     color: white;
     margin-top: 1rem;
-
+    cursor: pointer;
 }
 
 .buttonInput .btn:hover {
@@ -273,7 +276,7 @@ footer {
   .insideUnderText {
     position: absolute;
     top: 20%;
-    left: 20%;
+    left: 18%;
     transform: translate(-50%, -50%);
     font-size: 2rem;
     text-align: center;
